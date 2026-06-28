@@ -105,21 +105,21 @@ A forward-looking view powered by the Random Forest model, applied to customers 
 
 6. Key Insights
 
-1. Overall churn rate: **27.0%**
-2. Customers over age 50 churn the most of any age band (31.0%)
-3. Contract type is the strongest churn lever:
+- Overall churn rate: **27.0%**
+- Customers over age 50 churn the most of any age band (31.0%)
+- Contract type is the strongest churn lever:
    - Month-to-month: 46.5% churn
    - One-year: 11.0% churn
    - Two-year: 2.7% churn
-4. Competitor activity is the top churn category (761 customers), ahead of Dissatisfaction (300) and Attitude (301)
-5. Fiber optic users churn more (41.1%) than Cable (25.7%) or DSL (19.4%)
-6. Jammu & Kashmir has the highest churn rate among the top 5 states (57.2%)
+- Competitor activity is the top churn category (761 customers), ahead of Dissatisfaction (300) and Attitude (301)
+- Fiber optic users churn more (41.1%) than Cable (25.7%) or DSL (19.4%)
+- Jammu & Kashmir has the highest churn rate among the top 5 states (57.2%)
 
 
 7. How to Reproduce
 
-1. Run `SQLQuerychurn_analysis_prjct.sql` against SQL Server to build `stg_Churn` → `prod_Churn` and the two views
-2. Export `vw_ChurnData` and `vw_JoinData` to Excel (or connect directly via a SQL connector)
-3. Open `Churn_Prediction.ipynb`, update the file paths, and run all cells to train and evaluate the model
-4. Connect Power BI Desktop to `prod_Churn` / the views to build or refresh the dashboard
+- Run `SQLQuerychurn_analysis_prjct.sql` against SQL Server to build `stg_Churn` → `prod_Churn` and the two views
+- Export `vw_ChurnData` and `vw_JoinData` to Excel (or connect directly via a SQL connector)
+- Open `Churn_Prediction.ipynb`, update the file paths, and run all cells to train and evaluate the model
+- Connect Power BI Desktop to `prod_Churn` / the views to build or refresh the dashboard
 
