@@ -6,7 +6,7 @@ An end-to-end churn analytics project combining **SQL Server** (data cleaning & 
 
 1. Tech Stack
 
-- SQL Server (T-SQL)** — data staging, cleaning, views
+- SQL Server  — data staging, cleaning, views
 - Power BI — interactive 2-page dashboard
 - Python — pandas, scikit-learn, seaborn, matplotlib
 - Excel — data exchange layer between SQL views and the Python notebook
