@@ -67,8 +67,6 @@ Page 2 — Churn Analysis: Prediction
 A forward-looking view powered by the Random Forest model, applied to customers who recently joined and have no churn outcome yet.
 ![image alt](https://github.com/Madhvam-44/TELECOM-CUSTOMER-CHURN-ANALYSIS-PROJECT/blob/main/IMAGES/Churn%20Predictions.png)
 
-Screeshot of the dashboard - 
-
 --Headline metric
 - Predicted Churners: 378
 
