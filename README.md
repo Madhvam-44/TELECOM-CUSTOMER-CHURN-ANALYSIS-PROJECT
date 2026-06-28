@@ -3,10 +3,6 @@
 
 An end-to-end churn analytics project combining **SQL Server** (data cleaning & ETL), Power BI (interactive dashboarding), and Python / scikit-learn (predictive modeling) to understand why customers churn and who is likely to churn next.
 
-![Summary Dashboard](Churn_Analysis_pic1.png)
-![Prediction Dashboard](Churn_Prediction.png)
-
----
 
 1. Tech Stack
 
@@ -45,8 +41,7 @@ An end-to-end churn analytics project combining **SQL Server** (data cleaning & 
 
 Page 1 — Churn Analysis: Summary
 A descriptive, historical view of churn across the customer base.
-
-- Screenshot of the dashboard -
+![image alt](https://github.com/Madhvam-44/TELECOM-CUSTOMER-CHURN-ANALYSIS-PROJECT/blob/main/IMAGES/Churn%20Analysis.png)
 
 
 --Top KPIs
@@ -70,6 +65,7 @@ Purpose: This page gives stakeholders a clear, at-a-glance diagnosis of where ch
 
 Page 2 — Churn Analysis: Prediction
 A forward-looking view powered by the Random Forest model, applied to customers who recently joined and have no churn outcome yet.
+![image alt](https://github.com/Madhvam-44/TELECOM-CUSTOMER-CHURN-ANALYSIS-PROJECT/blob/main/IMAGES/Churn%20Predictions.png)
 
 Screeshot of the dashboard - 
 
